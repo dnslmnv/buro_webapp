@@ -1,3 +1,13 @@
+#headernumber {
+    display: none; /* Скрыть элемент по умолчанию */
+}
+
+@media only screen and (max-width: 991px) {
+    #headernumber {
+        display: block; /* Показать элемент при ширине экрана 991px и больше */
+    }
+}
+
 @media (max-width: 991px) {
     .sidebar {
         background-color: rgba(0, 0, 0, 0.317) !important;
@@ -54,6 +64,13 @@ body, html {
 .navbar-nav .nav-link.active {
     color: rgb(11, 7, 56) !important;
 }
+
+@media only screen and (max-width: 991px) {
+    #navnumber {
+       display: none;
+    }
+   }
+
 
 @media (max-width: 991px) {
     .navbar-nav .nav-link.active {
